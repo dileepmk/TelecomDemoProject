@@ -1,0 +1,7 @@
+
+~
+java:S2259"BA "NullPointerException" could be thrown; "rate" is nullable here.(¨ú‘ˆJ$3d652ac0-156f-410f-b6f0-9eb5acedf936
+h
+java:S2201",The return value of "toString" must be used.(¨ú‘ˆJ$7b0a38c2-e351-41f0-92a1-2d5b7c40db3a
+ƒ
+java:S1858"G"rate" is already a string, there's no need to call "toString()" on it.(¨ú‘ˆJ$7f7d0f1c-263c-4bfd-81a4-f710ba36cd97
