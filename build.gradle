@@ -4,6 +4,17 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.14.RELEASE'
     id 'java'
 }
+plugins {
+    id "org.sonarqube" version "4.4.1.3373"
+}
+
+sonar {
+    properties {
+        property "sonar.projectKey", "dileepmk_TelecomDemoProject"
+        property "sonar.organization", "dileepmk"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
 
 group = 'com.telecom'
 version = '0.0.1-SNAPSHOT'
